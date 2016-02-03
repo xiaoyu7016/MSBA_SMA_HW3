@@ -6,4 +6,5 @@
 
 ## Plan
 Feb 3
+
 1. Write the script for the crawler, output in a csv-ish file
