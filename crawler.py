@@ -12,6 +12,8 @@ MSBA_SMA_Assignment 3
 from bs4 import BeautifulSoup
 import requests
 from lxml import html
+from pandas import Series
+import pandas as pd
 
 url = "http://forums.edmunds.com/discussion/2864/general/x/entry-level-luxury-performance-sedans/p"
 # url for entry level luxury performance sedan
@@ -43,4 +45,6 @@ def scrape_comments(start_page_num,end_page_num):
     return comment_list
         
 
-entry_lux_300_671 = scrape_comments(300,302)
+entry_lux_300_671 = scrape_comments(300,671)
+
+pd.Series(entry_lux_300_671).to_csv("entry_lux_sedan.csv")
