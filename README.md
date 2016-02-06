@@ -11,7 +11,7 @@ Feb 3
 
 
 Feb 5-6
-1. Play around w/ Gephi & figure out network visualization
+1. Play around w/ Gephi & figure out network visualization (Check)
 
 Feb 7
 1. Play around w/ nltk & head start on Task C
